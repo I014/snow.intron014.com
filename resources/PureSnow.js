@@ -19,7 +19,7 @@ function toggle_snow() {
 }
 
 // Creating snowflakes
-function spawn_snow(snow_density = 200) {
+function spawn_snow(snow_density=200) {
     snow_density -= 1;
 
     for (let x = 0; x < snow_density; x++) {
